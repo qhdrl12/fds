@@ -68,7 +68,7 @@ insert into kakao_receiver_log (`create_time`,`user_id`,`receiver_account_number
 values (DATEADD('MINUTE', -544, now()), 2, '333-222-222', 151000, '999-888-888', 2, 150000);
 
 insert into kakao_receiver_log (`create_time`,`user_id`,`receiver_account_number`,`before_receiver_account_balance`,`sender_account_number`,`sender_user_id`,`receiver_amount`)
-values (DATEADD('MINUTE', -119, now()), 2, '333-222-222', 301000, '999-888-888', 2, 150000);
+values (DATEADD('MINUTE', -118, now()), 2, '333-222-222', 301000, '999-888-888', 2, 150000);
 
 insert into kakao_receiver_log (`create_time`,`user_id`,`receiver_account_number`,`before_receiver_account_balance`,`sender_account_number`,`sender_user_id`,`receiver_amount`)
 values (DATEADD('MINUTE', -42, now()), 2, '333-222-222', 451000, '999-888-888', 2, 150000);

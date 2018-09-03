@@ -18,7 +18,21 @@ Intellij
 
 java -jar build/libs/fds-0.0.1-SNAPSHOT.jar
 ```
+---
 
+## API 확인 
+```
+curl -i http://localhost:8080/v1/fraud/1
+HTTP/1.1 200
+Content-Type: application/json;charset=UTF-8
+
+{"user_id":1,"is_fraud":true,"rule":"RuleA,RuleB,RuleC"}
+```
+
+---
+
+## H2 console 확인
+`http://localhost:8080/console/`
 ---
 
 ## 코드설명 
